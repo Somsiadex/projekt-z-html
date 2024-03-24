@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="Pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nowa_strona.css">
+    <link rel="stylesheet" href="nowa_strona.js">
+    <title>FotoStudio</title>
+</head>
+<body>
+    <nav>
+        
+<button class="burger">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</button>
+          
+        <label class="logo">FotoStudio</label>
+        <ul>
+    
+            <li><a class="aboutus"href="onas.html">O nas</a></li>
+            <li><a class="offer" href="uslugi.html">Usługi</a></li>
+            <li><a class="contact" href="kontakt.html">Kontakt</a></li>
+            <li><a class="newsletter" href="newsletter.html">Newsletter</a></li>
+            <li><a class="projects" href="sesje.html">Sesje</a></li>
+        </ul>
+    </nav>
+    <script>
+        const mobileNav = document.querySelector('ul')
+        const burgerBtn = document.querySelector('.burger')
+
+        burgerBtn.addEventListener('click', function(){
+            mobileNav.classList.toggle('active');
+            burgericon.classList.toggle('active');
+        })
+    </script>
+    <section></section>
+    </body>
+</html>
